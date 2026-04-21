@@ -1,0 +1,124 @@
+########################################
+# Node.js
+########################################
+
+# Dependencies
+node_modules/
+jspm_packages/
+.pnpm-store/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.nuxt/
+.svelte-kit/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache
+.npm/
+
+########################################
+# Docker
+########################################
+
+# Ignore local docker override files
+docker-compose.override.yml
+
+# Docker env files
+.docker.env
+.docker.env.*
+
+# Docker volumes (caso use bind local)
+docker-data/
+volumes/
+
+# Build artifacts
+*.tar
+*.tar.gz
+
+# Dockerfile local variants (opcional)
+Dockerfile.local
+
+########################################
+# OS / Sistema
+########################################
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+########################################
+# IDEs / Editors
+########################################
+
+# IntelliJ / WebStorm / IDEA
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+.history/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+########################################
+# Misc
+########################################
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Logs genéricos
+*.log
+
+# Debug
+debug/
