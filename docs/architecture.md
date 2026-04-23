@@ -10,3 +10,12 @@
 - Services are loosely coupled
 - Communication is asynchronous
 - State is distributed
+
+## Why Kafka?
+
+Kafka was chosen due to:
+- high throughput
+- partition-based scalability
+- durability guarantees
+
+RabbitMQ would be simpler but less suited for high-throughput streaming scenarios
