@@ -16,3 +16,14 @@ Order Created → Kafka → Payment → Kafka → Inventory → Kafka → Shippi
 - Idempotent consumers required
 - Potential duplicate processing handled at service level
 
+## Trade-offs
+
+Pros:
+- Decoupling
+- Scalability
+- Fault isolation
+
+Cons:
+- Eventual consistency
+- Increased complexity
+- Harder debugging
