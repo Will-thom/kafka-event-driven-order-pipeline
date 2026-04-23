@@ -10,3 +10,9 @@ An event-driven order pipeline using Kafka to decouple services and enable async
 
 Order Created → Kafka → Payment → Kafka → Inventory → Kafka → Shipping
 
+## Delivery Guarantees
+
+- At-least-once delivery
+- Idempotent consumers required
+- Potential duplicate processing handled at service level
+
